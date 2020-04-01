@@ -1,0 +1,9 @@
+.select {
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: var(--drop-shadow);
+  cursor: pointer;
+  margin: 20px;
+}

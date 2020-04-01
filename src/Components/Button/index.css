@@ -1,0 +1,17 @@
+.btn {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  transform: scale(1);
+  transition: 0.2s;
+  cursor: pointer;
+  box-shadow: var(--drop-shadow);
+  text-align: center;
+  margin: 10px;
+}
+
+.btn:hover {
+  transform: scale(1.008);
+  background-color: rgb(121, 255, 219);
+}

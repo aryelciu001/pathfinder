@@ -1,0 +1,30 @@
+.tile {
+  width: 25px;
+  height: 25px;
+  box-sizing: border-box;
+  background-color: white;
+  transition: 0.5s;
+  border: 1px solid rgb(228, 228, 228);
+  background-position: center;
+  background-size: 100%;
+}
+
+.wall-tile {
+  background: radial-gradient(circle, rgb(122, 122, 122) 10%, white 50%);
+  background-position: center;
+  background-size: 1000%;
+}
+
+.start-tile {
+  background: radial-gradient(circle, red 10%, white 50%);
+}
+
+.finish-tile {
+  background: radial-gradient(circle, blue 10%, white 50%);
+}
+
+.route-tile {
+  background: radial-gradient(circle, rgb(121, 255, 219) 10%, white 50%);
+  background-position: center;
+  background-size: 1000%;
+}
